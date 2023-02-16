@@ -5,11 +5,11 @@ $(window).on('load',function(){
 $(window).scroll(function(){
     if ($(this).scrollTop()>5){
      $('header').addClass('bg-white');
-     $('.nav-link').addClass('white')
+     $('.nav-link').addClass('white');
     }
     else{
-     $('header').removeClass('bg-white')
-     $('.nav-link').removeClass('white')   
+     $('header').removeClass('bg-white');
+     $('.nav-link').removeClass('white') ; 
     }
 })
      // when you hover a toggle show its dropdown menu
